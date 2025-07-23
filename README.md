@@ -20,11 +20,12 @@ This project demonstrates the implementation of the Hub-and-Spoke model using Az
 
 | Component | Name | IP Range | Description |
 |----------|------|----------|-------------|
-| Hub VNet | `HubVNet` | `11.0.0.0/16` | Centralized network for firewall and shared services |
-| Spoke VNet 1 | `SpokeVNet1` | `12.0.0.0/16` | VNet for workload 1 |
-| Spoke VNet 2 | `SpokeVNet2` | `13.0.0.0/16` | VNet for workload 2 |
-| Subnet | `AzureFirewallSubnet` | `11.0.1.0/24` | Reserved for Azure Firewall |
-| Azure Firewall | `CentralFirewall` | — | Inspects and controls all traffic |
+| Hub VNet | `aka-Vnetwork` | `10.0.0.0/16` | Centralized network for firewall and shared services |
+| Spoke VNet 1 | `prod1-spoke-vnetwork` | `10.1.0.0/16` | VNet for workload 1 |
+| Spoke VNet 2 | `prod2-spoke-vnetwork` | `10.2.0.0/16` | VNet for workload 2 |
+| Subnet | `Each for Vnets` | — | Reserved for Azure Firewall |
+| NetSecurityGroups | `For all Vnets` | — | Provide Security for The vnet |
+| Azure Firewall | `aka-firewall` | — | Inspects and controls all traffic |
 | VMs | `Spoke1-VM`, `Spoke2-VM` | — | For testing connectivity and firewall policies |
 
 ---

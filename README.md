@@ -126,8 +126,8 @@ This project demonstrates the implementation of the Hub-and-Spoke model using Az
 ## 🏁 Author
 
 **Akash Shinde**  
-Celebal Summer Internship | DevOps | Full-Stack Enthusiast
-Email: [akashshide2601@email.com]  
-GitHub: [github.com/akascaptain](https://github.com/akascaptain)
+Celebal Summer Internship | DevOps | CT_CSI_DV_4920
+Email: akashshide2601@email.com 
+GitHub: https://github.com/akascaptain
 
 ---

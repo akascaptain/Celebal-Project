@@ -51,6 +51,21 @@ This project demonstrates the implementation of the Hub-and-Spoke model using Az
 
 ---
 
+## ℹ️ Project Constraints
+During the development and deployment of this Hub-and-Spoke topology project, the following limitation was encountered:
+
+**Azure for Students Subscription Limitation:**
+Azure student subscription accounts allow creation of only 3 Public IP addresses.   
+As a result, the deployment had to be carefully planned to stay within this quota.
+
+**Resource sharing and optimized IP assignment were performed to accommodate:**
+   - Azure Firewall Public IP
+   - Azure Bastion Host Public IP
+   - (Optional) Additional Public IP for VM or VPN Gateway
+Any components requiring additional public IPs were either reconfigured to use private endpoints or tested in a constrained manner within this quota.
+
+---
+
 ## 📐 Implementation Stages
 
 ### ✅ Stage 1: Deploying the Hub-Spoke Virtual Networks

@@ -53,22 +53,19 @@ This project demonstrates the implementation of the Hub-and-Spoke model using Az
 
 ## 📐 Implementation Stages
 
-### ✅ Stage 1: Planning & Design
-- Defined IP address spaces for Hub and Spokes.
-- Outlined network segmentation and resource allocation.
-- Identified shared services and security strategy.
+### ✅ Stage 1: Deploying the Hub-Spoke Virtual Networks
 
-### ✅ Stage 2: Resource Creation
-- Created Hub and Spoke VNets with defined subnets.
-- Deployed Azure Firewall in `HubVNet`.
-- Peered Spokes to Hub using VNet Peering.
-- Deployed VMs in each Spoke subnet.
+### ✅ Stage 2: Creating Peering Between the Hub and Spoke Networks
 
-### ✅ Stage 3: Security & Traffic Routing
-- Created UDRs in Spokes to route traffic via Azure Firewall.
-- Configured Network Rules and Application Rules in Azure Firewall.
-- Attached NSGs to subnets for access control.
-- Enabled diagnostics and flow logs for monitoring.
+### ✅ Stage 3: Creating the Azure Firewall Service
+
+### ✅ Stage 4: Creating and Updating Routing Tables
+
+### ✅ Stage 5: Deploying VMs in the Spoke Virtual Networks
+
+### ✅ Stage 6: Updating Firewall Rules & NSG Rules
+
+### ✅ Stage 7: Configuring a Site-to-Site VPN
 
 ---
 
